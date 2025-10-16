@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=up": { "model": "create_minimal_electricity:block/electric_generator/block" },
+    "facing=down": { "model": "create_minimal_electricity:block/electric_generator/block" },
+    "facing=north": { "model": "create_minimal_electricity:block/electric_generator/block", "x": 90 },
+    "facing=south": { "model": "create_minimal_electricity:block/electric_generator/block","x": 90},
+    "facing=west": { "model": "create_minimal_electricity:block/electric_generator/block", "x": 90, "y": 90 },
+    "facing=east": { "model": "create_minimal_electricity:block/electric_generator/block", "x": 90 , "y": 90}
+  }
+}

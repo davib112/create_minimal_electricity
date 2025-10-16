@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "ABCBA",
+    "DCECD",
+    "ABCBA"
+  ],
+  "key": {
+  	"A": {
+      "tag": "forge:plates/brass"
+    },
+    "B": {
+      "tag": "forge:plates/iron"
+    },
+    "C": {
+      "tag": "forge:plates/copper"
+    },
+    "D": {
+      "item": "create:polished_rose_quartz"
+    },
+    "E": {
+      "item": "create:shaft"
+    }
+  },
+  "result": {
+    "item": "create_minimal_electricity:electric_motor"
+  }
+}

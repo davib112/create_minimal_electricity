@@ -1,0 +1,9 @@
+{
+  "itemGroup.create_minimal_electricity": "Create Electric Motor",
+  "block.create_minimal_electricity.electric_motor": "Electric Motor",
+  "block.create_minimal_electricity.electric_generator": "Electric Generator",
+
+  "create.gui.goggles.fe": "fe/t",
+  "create.gui.goggles.energy.usage": "Energy Usage:",
+  "create.gui.goggles.energy.gain": "Energy Generated:"
+}

@@ -1,0 +1,45 @@
+{
+  "variants": {
+    "attach_facing=down,facing=down": { "model": "create_minimal_electricity:block/electric_motor/block_nobase", "x": 180 },
+    "attach_facing=down,facing=up": { "model": "create_minimal_electricity:block/electric_motor/block_nobase" },
+    "attach_facing=down,facing=north": { "model": "create_minimal_electricity:block/electric_motor/block", "y": 180},
+    "attach_facing=down,facing=south": { "model": "create_minimal_electricity:block/electric_motor/block", "y": 0 },
+    "attach_facing=down,facing=west": { "model": "create_minimal_electricity:block/electric_motor/block", "y": 90 },
+    "attach_facing=down,facing=east": { "model": "create_minimal_electricity:block/electric_motor/block", "y": 270 },
+
+    "attach_facing=up,facing=down": { "model": "create_minimal_electricity:block/electric_motor/block_nobase", "x": 180 },
+    "attach_facing=up,facing=up": { "model": "create_minimal_electricity:block/electric_motor/block_nobase" },
+    "attach_facing=up,facing=north": { "model": "create_minimal_electricity:block/electric_motor/block", "x": 180, "y": 0 },
+    "attach_facing=up,facing=south": { "model": "create_minimal_electricity:block/electric_motor/block", "x": 180, "y": 180 },
+    "attach_facing=up,facing=west": { "model": "create_minimal_electricity:block/electric_motor/block", "x": 180, "y": 270 },
+    "attach_facing=up,facing=east": { "model": "create_minimal_electricity:block/electric_motor/block", "x": 180, "y": 90 },
+
+    "attach_facing=north,facing=down": { "model": "create_minimal_electricity:block/electric_motor/block", "x": 270, "y": 0 },
+    "attach_facing=north,facing=up": { "model": "create_minimal_electricity:block/electric_motor/block", "x": 90, "y": 180 },
+    "attach_facing=north,facing=north": { "model": "create_minimal_electricity:block/electric_motor/block_nobase", "x": 90 },
+    "attach_facing=north,facing=south": { "model": "create_minimal_electricity:block/electric_motor/block_nobase", "x": 270 },
+    "attach_facing=north,facing=west": { "model": "create_minimal_electricity:block/electric_motor/block_onside", "x": 0, "y": 90 },
+    "attach_facing=north,facing=east": { "model": "create_minimal_electricity:block/electric_motor/block_onside", "x": 180, "y": 90 },
+
+    "attach_facing=south,facing=down": { "model": "create_minimal_electricity:block/electric_motor/block", "x": 270, "y": 180 },
+    "attach_facing=south,facing=up": { "model": "create_minimal_electricity:block/electric_motor/block", "x": 90, "y": 0 },
+    "attach_facing=south,facing=north": { "model": "create_minimal_electricity:block/electric_motor/block_nobase", "x": 90 },
+    "attach_facing=south,facing=south": { "model": "create_minimal_electricity:block/electric_motor/block_nobase", "x": 270 },
+    "attach_facing=south,facing=west": { "model": "create_minimal_electricity:block/electric_motor/block_onside", "x": 180, "y": 270 },
+    "attach_facing=south,facing=east": { "model": "create_minimal_electricity:block/electric_motor/block_onside", "x": 0, "y": 270 },
+
+    "attach_facing=west,facing=down": { "model": "create_minimal_electricity:block/electric_motor/block", "x": 270, "y": 270 },
+    "attach_facing=west,facing=up": { "model": "create_minimal_electricity:block/electric_motor/block", "x": 90, "y": 90 },
+    "attach_facing=west,facing=north": { "model": "create_minimal_electricity:block/electric_motor/block_onside", "x": 180, "y": 0 },
+    "attach_facing=west,facing=south": { "model": "create_minimal_electricity:block/electric_motor/block_onside", "x": 0, "y": 0 },
+    "attach_facing=west,facing=west": { "model": "create_minimal_electricity:block/electric_motor/block_nobase", "x": 90,"y": 270 },
+    "attach_facing=west,facing=east": { "model": "create_minimal_electricity:block/electric_motor/block_nobase", "x": 90,"y": 90 },
+
+    "attach_facing=east,facing=down": { "model": "create_minimal_electricity:block/electric_motor/block", "x": 270, "y": 90 },
+    "attach_facing=east,facing=up": { "model": "create_minimal_electricity:block/electric_motor/block", "x": 90, "y": 270 },
+    "attach_facing=east,facing=north": { "model": "create_minimal_electricity:block/electric_motor/block_onside", "x": 0, "y": 180 },
+    "attach_facing=east,facing=south": { "model": "create_minimal_electricity:block/electric_motor/block_onside", "x": 180, "y": 180 },
+    "attach_facing=east,facing=west": { "model": "create_minimal_electricity:block/electric_motor/block_nobase", "x": 90,"y": 270 },
+    "attach_facing=east,facing=east": { "model": "create_minimal_electricity:block/electric_motor/block_nobase", "x": 90,"y": 90 }
+  }
+}

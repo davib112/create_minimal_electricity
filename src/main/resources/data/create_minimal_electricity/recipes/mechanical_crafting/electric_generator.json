@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " ADA ",
+    "ABCBA",
+    "DCECD",
+    "ABCBA",
+    " ADA "
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:plates/brass"
+    },
+    "B": {
+      "tag": "forge:plates/copper"
+    },
+    "C": {
+      "tag": "forge:plates/iron"
+    },
+    "D": {
+      "tag": "forge:ingots/copper"
+    },
+    "E": {
+      "item": "create:shaft"
+    }
+  },
+  "result": {
+    "item": "create_minimal_electricity:electric_generator"
+  }
+}
